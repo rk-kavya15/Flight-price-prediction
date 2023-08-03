@@ -56,3 +56,83 @@ Lasso Regression is a linear regression technique that introduces L1 regularizat
 ### Gradient Boosting Regressor:
 Gradient Boosting Regressor is a powerful and popular ensemble machine learning algorithm used for regression tasks. It is an extension of the Gradient Boosting algorithm, which combines the predictions of multiple individual models (typically decision trees) to make a final prediction.
 
+## CHALLENGES FACED
+
+In this flight price prediction project, some of the challenges that may arise include:
+
+#### Data Availability: 
+Obtaining reliable and comprehensive historical flight data can be challenging, especially if you need data from various airlines and routes.
+
+#### Data Quality: 
+Ensuring the accuracy and consistency of the collected data can be difficult, as flight prices are influenced by numerous factors, such as seasonality, demand, and external events.
+
+#### Feature Engineering: 
+Selecting and engineering the right features that capture the relevant information for price prediction can be complex and time-consuming.
+
+#### Dynamic Nature of Prices: 
+Flight prices fluctuate frequently due to various factors, making it challenging to build a model that accurately captures these changes.
+
+#### Model Selection: 
+Choosing the appropriate machine learning algorithm and model architecture can be tricky, as different models may perform differently on flight price prediction tasks.
+
+#### Overfitting: 
+Avoiding overfitting is crucial to ensure the model generalizes well to unseen data, given the complexity of the flight price prediction problem.
+
+#### Limited Historical Data: 
+Having limited historical data might impact the model's ability to learn patterns effectively, especially if you're trying to predict prices for less popular or new routes.
+
+#### External Factors: 
+Various external factors, such as geopolitical events or natural disasters, can significantly influence flight prices, and incorporating these factors into the model can be challenging.
+
+#### Interpretability: 
+Building a model that is interpretable and understandable to users is important, especially if it is used in a consumer-facing application.
+
+#### Real-Time Updates: 
+If the prediction model is intended for real-time applications, ensuring it can handle real-time updates and respond to price changes promptly can be a challenge.
+
+Addressing these challenges often requires a combination of data preprocessing, feature engineering, model selection, and continuous monitoring and updating of the model to maintain its accuracy and relevance over time.
+
+## FINAL OUTCOME
+
+The aim of our study is to answer the below research questions:
+a) Does price vary with Airlines for the same source_city to destination_city?
+ANS- Yes, the price can vary based on different airlines operating between the same source and destination cities.
+
+
+b) How is the price affected when tickets are bought just 1 or 2 days before departure?
+ANS- Typically, ticket prices tend to be higher when purchased closer to the departure date due to increased demand and limited availability.
+
+
+
+c) Does the ticket price change based on the departure time and arrival time?
+ANS- Yes, the departure time and arrival time can impact ticket prices, as certain time slots may be more popular or in higher demand, resulting in price fluctuations.
+
+d) How the price changes with change in Source and Destination?
+ANS- A Flight price prediction application which predicts fares of flight for a particular date based on various parameters like Source, Destination, Stops & Airline. In short, distance and demand are pivotal factors that determine flight ticket prices. Travel is just like any other valuable commodity, and it's priced so that when demand is low, prices are low, to stimulate sales. Likewise, when demand is high, prices are high to capitalize on the interest.
+
+
+
+e) How does the ticket price vary between Economy and Business class?
+ANS- For Business Class, the price increase with flight duration can be more significant. Business Class offers enhanced amenities and services, such as more spacious seating, better meals, and additional perks. These added luxuries contribute to the higher cost of Business Class tickets on longer flights
+
+
+## PRACTICAL USAGE
+
+Practical usage of flight price prediction can benefit both travelers and the travel industry. Here are some practical applications:
+
+1. Optimal Booking Time: Flight price prediction can help travelers determine the best time to book their tickets. By analyzing historical data and pricing trends, prediction models can suggest the optimal time to secure the lowest fares[1].
+
+2. Budget Planning: Knowing the expected price range of flights in advance allows travelers to plan their travel budget more effectively. Price prediction tools can provide insights into future price fluctuations, enabling travelers to make informed decisions[4].
+
+3. Promotions and Discounts: Airlines and travel agencies can utilize flight price prediction to offer targeted promotions and discounts. By identifying periods of low demand or predicting price drops, they can attract more customers and optimize revenue[5].
+
+4. Revenue Management: Airlines can use price prediction models to optimize their revenue management strategies. By forecasting demand and adjusting prices accordingly, airlines can maximize their seat occupancy and profitability[6].
+
+5. Competitive Analysis: Price prediction tools can help travel agencies and airlines analyze their competitors' pricing strategies. By monitoring and comparing prices, they can adjust their own pricing to stay competitive in the market[1].
+
+6. Market Insights: Flight price prediction can provide valuable market insights to airlines and travel industry stakeholders. By analyzing historical data and trends, they can gain a better understanding of customer behavior, market dynamics, and pricing patterns[6].
+
+It is important to note that while flight price prediction can provide valuable guidance, it is not a guarantee of the exact ticket price. Factors such as sudden changes in demand, external events, and market conditions can still impact prices. However, utilizing prediction tools can increase the chances of finding the best deals and optimizing travel plans.
+
+
+
